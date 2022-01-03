@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fashionist</title>
+    <!--    Fondation-->
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,700i,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,600i,700,700i,800" rel="stylesheet">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/back2top.css" media="all">
+</head>
+
+<body>
+    <!-- start header section -->
+    <div class="header-area">
+        <div class="grid-x">
+            <div class="cell">
+                <div class="title-bar" data-responsive-toggle="example-animated-menu" data-hide-for="medium">
+                    <button class="menu-icon" type="button" data-toggle></button>
+                    <div class="title-bar-title">Fashionist</div>
+                </div>
+                <div class="top-bar" id="example-animated-menu" data-animate="hinge-in-from-top spin-out">
+                    <div class="top-bar-left">
+                        <ul class="dropdown menu" data-dropdown-menu>
+                            <a class="navbar-brand" href="index.html">
+                                <img src="images/logo.png" alt="logo">
+                            </a>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="product-list.html">Product</a></li>
+                            <li><a href="single-product.html">Shop</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="top-bar-right">
+                        <ul class="dropdown menu" data-dropdown-menu>
+                            <li class="login"><a href="login.html">LOGIN</a></li>
+                            <li class="shop-cart"><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            <li class="search-btn"><a href="#"><i class="fa fa-search"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end header section -->
+	
+    <!-- start sign up section -->
+    <div class="signing-section">
+        <div class="grid-container">
+            <div class="grid-x">
+                <div class="cell medium-12 text-center">
+                    <h2 class="title">My Account</h2>
+                </div>
+                <div class="cell medium-6">
+                    <div class="sign-up text-center ">
+                        <h3 class="section-title">Sign Up</h3>
+                        <form data-abide novalidate>
+                            <div class="grid-container">
+                                <div class="form">
+                                    <div class="grid-x grid-padding-x">
+                                        <div class="medium-6 cell">
+                                            <label>
+                                                <input type="text" class="input left" placeholder="First Name" id="fname" aria-describedby="example1Hint1" aria-errormessage="example1Error1" required>
+                                                <span class="form-error" id="example1Error1">
+                                                    First Name required!
+                                                </span>
+                                            </label>
+                                            <p class="help-text" id="example1Hint1"></p>
+                                        </div>
+                                        <div class="medium-6 cell">
+                                            <label>
+                                                <input type="text" class="input right" placeholder="Last Name" id="lname" aria-describedby="example1Hint2" aria-errormessage="example1Error2" required>
+                                                <span class="form-error" id="example1Error2">
+                                                    Last Name required!
+                                                </span>
+                                            </label>
+                                            <p class="help-text" id="example1Hint2"></p>
+                                        </div>
+                                    </div>
+                                    <div class="grid-x grid-padding-x">
+                                        <div class="medium-6 cell">
+                                            <label>
+                                                <input type="email" class="input right" placeholder="Email Address" aria-describedby="example1Hint3" aria-errormessage="example1Error3" required>
+                                                <span class="form-error" id="example1Error3">
+                                                    Email required!
+                                                </span>
+                                            </label>
+                                            <p class="help-text" id="example1Hint3"></p>
+                                        </div>
+                                        <div class="medium-6 cell">
+                                            <label>
+                                                <input type="text" class="input right" placeholder="User Name" id="username" aria-describedby="example1Hint4" aria-errormessage="example1Error4" required>
+                                                <span class="form-error" id="example1Error4">
+                                                    username required!
+                                                </span>
+                                            </label>
+                                            <p class="help-text" id="example1Hint2"></p>
+                                        </div>
+                                    </div>
+                                    <div class="grid-x grid-padding-x">
+                                        <div class="medium-6 cell">
+                                            <label>
+                                                <input type="text" class="input right" id="password" placeholder="Password" aria-describedby="example1Hint5" aria-errormessage="example1Error5" required>
+                                                <span class="form-error" id="example1Error5">
+                                                    password required!
+                                                </span>
+                                            </label>
+                                            <p class="help-text" id="example1Hint5"></p>
+                                        </div>
+                                        <div class="medium-6 cell">
+                                            <label>
+                                                <input type="text" class="input right" placeholder="Confirm Password" aria-describedby="example1Hint6" aria-errormessage="example1Error6" required pattern="alpha_numeric" data-equalto="password">
+                                                <span class="form-error" id="example1Error6">
+                                                    Hey, passwords are supposed to match!
+                                                </span>
+                                            </label>
+                                            <p class="help-text" id="example1Hint6"></p>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-blue">JOIN NOW</button>
+                                    <!--=====End Signup Button====-->
+
+                                    <!--=====Start forgot passwor modal====-->
+                                    <div class="forgot-pass">
+                                        <a href="#" data-toggle="exampleModal11">Forgot Password?</a>
+
+                                        <div class="reveal callout" id="exampleModal11" aria-labelledby="exampleModalHeader11" data-reveal>
+                                            <div class="grid-x grid-padding-x">
+                                                <h4 class="text-center">Reset Your Your Password</h4>
+                                                <div class="medium-9 cell">
+                                                    <label>
+                                                        <input type="email" class="input right" placeholder="Enter Email" aria-describedby="example1Hint3" aria-errormessage="example1Error3" required>
+                                                        <span class="form-error" id="example1Error3">
+                                                            Email required!
+                                                        </span>
+                                                    </label>
+                                                    <p class="help-text" id="example1Hint3"></p>
+                                                </div>
+                                                <div class="medium-3 cell">
+                                                    <button type="submit" class="alert button">Reset</button>
+                                                </div>
+
+                                            </div>
+
+                                            <button class="close-button" data-close aria-label="Close Accessible Modal" type="button">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <!--End forgot password-->
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="cell medium-3 medium-offset-2">
+                    <div class="sign-in">
+                        <h3 class="section-title">Sign in</h3>
+                        <form>
+                            <div class="grid-container">
+                                <div class="grid-x grid-padding-x">
+                                    <div class="medium-12 cell">
+                                        <label>
+                                            <input type="email" placeholder="Email" aria-describedby="example1Hint5" aria-errormessage="example1Error5" required>
+                                            <span class="form-error" id="example1Error5">
+                                                Enter valid email!
+                                            </span>
+                                        </label>
+                                        <p class="help-text" id="example1Hint5"></p>
+
+                                        <label>
+                                            <input type="password" placeholder="Password" aria-describedby="example1Hint5" aria-errormessage="example1Error5" required>
+                                            <span class="form-error" id="example1Error5">
+                                                Enter valid password!
+                                            </span>
+                                        </label>
+                                        <p class="help-text" id="example1Hint5"></p>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-blue">SIGN IN</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!--End signin form-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- start sign up section -->
+	
+	<!--============Back To Top===========-->
+		<a href="#" id="scroll" style="display: none;"><span></span></a>
+	
+    <!-- start footer section -->
+    <div class="footer-section">
+        <div class="grid-container">
+            <div class="grid-x margin-left">
+                <div class="cell medium-4">
+                    <div class="widget widget_about">
+                        <a href="index.html"><img src="images/logo.png" alt="image"></a>
+                        <p class="entry-content">Fashionist is best online shopping site for everyone who like to Shop form home or anywhere and collect your favourite dress.</p>
+                        <a class="btn btn-blue" href="contact.html">Contact Us <i class="fa fa-newspaper-o"></i></a>
+                    </div>
+                </div>
+                <div class="cell medium-4">
+                    <div class="widget widget_navigation">
+                        <div class="navigation-details">
+                            <h2 class="title">Navigation</h2>
+                            <div class="grid-x margin-left2">
+                                <div class="cell medium-6">
+                                    <ul class="services">
+                                        <li><a href="#"><i class="fa fa-angle-right"></i>Customer Service </a></li>
+                                        <li><a href="#"><i class="fa fa-angle-right"></i>Order Status</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-right"></i>Contact Us</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-right"></i>Returns</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-right"></i>Shipping</a></li>
+                                    </ul>
+                                </div>
+                                <div class="cell medium-6">
+                                    <div class="grid-">
+                                        <ul class="services">
+                                            <li><a href="#"><i class="fa fa-angle-right"></i>Size Charts</a></li>
+                                            <li><a href="#"><i class="fa fa-angle-right"></i>Wish List</a></li>
+                                            <li><a href="#"><i class="fa fa-angle-right"></i>Site Map</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell medium-4">
+                    <div class="widget widget_news">
+                        <div class="widget-title">
+                            <h2 class="title">Newsletter</h2>
+                            <p class="sub-title">Sign up for our newsletter to get <br>
+                                up-to-date from us.
+                            </p>
+                        </div>
+                        <div class="footer-search">
+                            <input placeholder="Enter Your Email" type="text">
+                            <a class="btn btn-blue" href="#">Submit</a>
+                        </div>
+                        <div class="social-area">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end footer section -->
+    <!-- start sub-footer section -->
+    <div class="footer-bottom text-center">
+        <p>© All Rights Reserved - Fashionist 2018</p>
+    </div>
+    <!-- end sub-footer section -->
+    <!--All JS Plugin-->
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/what-input.js"></script>
+    <script type="text/javascript" src="js/foundation.min.js"></script>
+    <!--    <script type="text/javascript" src="js/bootstrap.min.js"></script>-->
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <!-- Custom JS -->
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/back2top.js"></script>
+</body>
+
+</html>

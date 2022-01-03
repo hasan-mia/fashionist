@@ -1,0 +1,121 @@
+@media all and (max-width: 1024px) {
+	.banner-section .banner-details {
+		padding-top: 30px;
+	}
+}
+
+@media all and (max-width: 991px) {
+	.header-area .navbar-default .navbar-left {
+		margin-left: 0;
+	}
+	.banner-section {
+		text-align: center;
+	}
+	.banner-section .banner-details {
+		padding-bottom: 60px;
+	}
+	.signing-section .sign-in {
+		padding-top: 78px;
+		text-align: center;
+	}
+	.widget_navigation,
+	.widget_about {
+		margin-bottom: 50px;
+	}
+}
+
+@media all and (max-width: 767px) {
+	.header-area .navbar-header,
+	.header-area .navbar-default {
+		height: 80px;
+	}
+	.header-area .navbar-default .navbar-brand {
+		padding-top: 29px;
+	}
+	.header-area .navbar-default .navbar-toggle {
+		margin-top: 22px;
+	}
+	.header-area .navbar-default .navbar-collapse {
+		background: #fff;
+		z-index: 9999;
+		position: relative;
+	}
+	.header-area .navbar-default .navbar-left {
+		margin-left: -15px;
+	}
+	.header-area .navbar-default .navbar-nav li a {
+		line-height: 20px;
+	}
+	.header-area .navbar-default .navbar-right a {
+		font-weight: 500;
+	}
+	.header-area .navbar-default .navbar-right .login:after {
+		display: none;
+	}
+	.banner-section .banner-details {
+		padding-top: 0;
+	}
+	.banner-section .banner-details .title {
+		font-size: 32px;
+		line-height: 42px;
+		margin-bottom: 20px;
+	}
+	.banner-section .banner-details .content {
+		font-size: 14px;
+	}
+	.banner-section .banner-details .content br {
+		display: none;
+	}
+	.banner-section-2 .banner-details {
+		padding-top: 0;
+	}
+	.banner-section .thumb img {
+		width: 100%;
+	}
+	.top-sel-details {
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	.top-sell-section .main-title {
+		font-size: 30px;
+	}
+	.signing-section {
+		padding-top: 40px;
+	}
+	.signing-section .sign-up .form-group .left {
+		margin-right: 0;
+	}
+	.signing-section .sign-up .form-group input {
+		width: 100%;
+	}
+	.signing-section .sign-in {
+		text-align: center;
+	}
+	.signing-section .title {
+		font-size: 30px;
+	}
+}
+
+@media all and (max-width: 320px) {
+	.banner-section .banner-details .title {
+		font-size: 28px;
+	}
+	.top-sell-section .main-title {
+		font-size: 24px;
+	}
+	.signing-section .title {
+		font-size: 24px;
+	}
+	.signing-section .section-title {
+		font-size: 18px;
+	}
+}
+
+@media all and (max-width: 639px) {
+	.margin-left {
+		margin-left: 40px;
+	}
+	.margin-left2 {
+		margin-left: 20px;
+	}
+}

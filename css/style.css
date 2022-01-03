@@ -1,0 +1,925 @@
+body {
+    font-family: 'Quicksand', Raleway, 'opensans';
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Quicksand', Raleway, ;
+    margin-top: 0;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 28px;
+}
+
+.btn {
+    border: 0;
+    border-radius: 35px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+    font-weight: 500;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+    outline: 0;
+    border: 0;
+    box-shadow: none !important;
+}
+
+.btn-blue:active,
+.btn-blue {
+    background-image: -moz-linear-gradient(0deg, rgb(196, 82, 249) 0%, rgb(120, 44, 246) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(196, 82, 249) 0%, rgb(120, 44, 246) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(196, 82, 249) 0%, rgb(120, 44, 246) 100%);
+    color: #fff;
+}
+
+.btn-blue:active,
+.btn-blue:focus,
+.btn-blue:hover {
+    color: #e1e3e4;
+}
+
+.pd-top-95 {
+    padding-top: 95px;
+}
+
+.margin-top-bottom {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/******* 01 Start header section *hasanmia.com* *******/
+
+.top-bar,
+.top-bar ul {
+    background-color: #ffffff !important;
+}
+
+.dropdown.menu a {
+    outline: 0;
+    font-size: 16px;
+    color: #313131;
+    font-weight: 500;
+    padding: 1.6rem !important;
+}
+
+.navbar-brand {
+    margin-right: 8%;
+    margin-top: -2px;
+}
+
+li.login:after {
+    content: "";
+    width: 1px;
+    height: 30px;
+    color: black;
+    background: black;
+    position: absolute;
+    right: 55%;
+    top: 50%;
+    margin-top: -15px;
+}
+
+.signing-section .sign-up .form input {
+    border: 0;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1.5px 2.598px 15px 0px rgb(196, 82, 249, .2);
+    outline: none;
+    height: 40px;
+    padding: 0 24px;
+    margin-bottom: 22px;
+}
+
+.header-area .top-bar li a:active,
+.header-area .top-bar li a:focus,
+.header-area .top-bar li a:hover {
+    color: #8332f6;
+}
+
+
+/*===mobile menu===hasanmia.com=*/
+@media screen and (max-width: 40em) and (max-width: 63.9375em) {}
+
+@media all and (min-width: 936px) and (max-width: 1038px) {
+    .dropdown.menu a {
+        padding: 10px !important;
+    }
+
+    li.login:after {
+        right: 51% !important;
+    }
+}
+
+@media all and (max-width: 640px) and (max-width: 750px) {
+    .dropdown.menu a {
+        padding: 10px !important;
+    }
+}
+
+
+@media all and (max-width: 935px) {
+    .dropdown.menu a {
+        padding: 6px !important;
+        font-size: 13px;
+    }
+
+    li.login:after {
+        right: 45% !important;
+        height: 20px;
+        top: 72%
+    }
+}
+
+@media screen and (max-width: 40em) {
+    li.login:after {
+        width: 0px !important;
+    }
+}
+
+@media screen and (max-width: 39.5em) {
+    .menu {
+        display: inline-grid;
+    }
+}
+
+
+/*********** 02 Start banner section *****hasanmia.com******/
+
+.banner-section {
+    background: url(../images/background/01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 77px 0 82px 0;
+}
+
+.banner-section .banner-details {
+    padding-top: 117px;
+}
+
+.banner-section .banner-details .title {
+    margin-bottom: 40px;
+    font-size: 48px;
+}
+
+.banner-section .banner-details .content {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.banner-section .thumb img {
+    width: auto;
+}
+
+.top-sel-details .thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.top-sel-details .offer {
+    background: #632cf6;
+    width: 200px;
+    position: absolute;
+    transform: rotate(312deg);
+    z-index: 1;
+    left: -48px;
+    top: 37px;
+    text-align: center;
+    height: 40px;
+    padding-top: 7px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+/******* 03 Start top sell section  *******/
+
+.top-sell-section .main-title {
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+.top-sell-section .title {
+    font-size: 24px;
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 50px;
+}
+
+.top-sell-section .thumb img {
+    margin-bottom: 29px;
+}
+
+
+/******** 04 Start account-section ********/
+
+.signing-section {
+    padding-top: 80px;
+    padding-bottom: 86px;
+}
+
+.signing-section .title {
+    margin-bottom: 45px;
+    color: #222222;
+    font-size: 36px;
+}
+
+.signing-section .section-title {
+    text-align: center;
+    margin-bottom: 35px;
+    color: #222222;
+}
+
+.signing-section .sign-up .form-group .left {
+    margin-right: 30px;
+}
+
+.signing-section .sign-up .form-group input {
+    width: 46%;
+    border: 0;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1.5px 2.598px 15px 0px rgb(196, 82, 249, .2);
+    outline: none;
+    height: 40px;
+    padding: 0 24px;
+    margin-bottom: 22px;
+}
+
+.signing-section .sign-up .btn {
+    margin-top: 15px;
+}
+
+.signing-section .sign-in .btn:focus,
+.signing-section .sign-up .btn:focus {
+    outline: 0;
+}
+
+.signing-section .sign-in input {
+    width: 100%;
+    height: 40px;
+    padding: 0 23px;
+    border: 0;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1.5px 2.598px 15px 0px rgb(196, 82, 249, .2);
+    margin-bottom: 22px;
+    outline: none;
+}
+
+
+/******* 05 Start banner section-2 *******/
+
+.banner-section-2 {
+    margin-bottom: 100px;
+}
+
+.banner-section-2 .banner-details {
+    padding-top: 16px;
+}
+
+
+/********* 06 Start Lastest product Slider**hasanmia.com*******/
+@media screen and (max-width: 40em) and (max-width: 63.9375em) {}
+
+.thumb img {
+    padding: 2px;
+}
+
+/*
+@media all and (min-width: 1035px) {}
+
+@media all and (min-width: 41em) {
+    .product-details-wrap .product-size .btn {
+        padding-left: 0px !important;
+    }
+    .product-details-wrap .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+    
+   .product-details-wrap .product-price-details .price .main-price {
+    font-size: 25px!important;
+    color: #b300f1;
+}
+    .product-details-wrap .product-price-details .price span del{
+        margin-left: 8px!important;
+    }
+    
+ .product-details-wrap .product-price-details .product-size {
+    width: 35%;
+    display: inline-flex;
+    padding: 7px 0!important;
+}
+
+ @media screen and (min-width: 39em) and (max-width: 40em) {
+.btn {
+    border: 0;
+    border-radius: 3px;
+    padding: -1px -15px;
+    text-transform: uppercase;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+    font-weight: 500;
+}
+*/
+
+}
+
+/********* 07 Start product list-section  *********/
+
+.product-list-section {
+    margin-bottom: 50px;
+}
+
+.product-details-wrap {
+    margin-bottom: 50px;
+}
+
+.product-list-section .thumb {
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px 0px rgb(196, 82, 249, .2);
+    margin-bottom: 27px;
+}
+
+.product-list-section .title {
+    margin-bottom: 19px;
+    color: #1b1919;
+}
+
+.product-details-wrap .title {}
+
+.product-details-wrap .content {
+    margin-bottom: 13px;
+    color: #606060;
+}
+
+.product-details-wrap .btn-blue {
+    margin-top: 27px;
+}
+
+.product-details-wrap .product-size .btn {
+    border: 0;
+    border-radius: 3px;
+    padding: 0px -10px;
+    text-transform: uppercase;
+    color: #313131;
+    font-weight: 600;
+    margin-top: -5px;
+    padding-left: 11px;
+    padding-right: -1px;
+}
+
+select {
+    background-color: #E7F1FD;
+    border: 0px solid #cacaca !important;
+}
+
+select:hover,
+select:active,
+select:focus-within {
+    background-color: #E7F1FD;
+}
+
+.product-details-wrap .product-size .btn:active,
+.product-details-wrap .product-size .btn:hover {
+    outline: 0;
+}
+
+.product-details-wrap .product-price-details .price {
+    float: left;
+    width: 50%;
+}
+
+.product-details-wrap .product-price-details .product-size {
+    width: 35%;
+    display: inline-flex;
+    padding: 10px 0;
+    /*
+    float: right;
+	
+*/
+}
+
+.product-details-wrap .product-price-details .price span del {
+    font-size: 16px;
+    color: #c7c7c7;
+}
+
+.product-details-wrap .product-price-details .price .main-price {
+    font-size: 30px;
+    color: #b300f1;
+}
+
+.product-details-wrap .product-size .size {
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.product-details-wrap .dropdown .caret {
+    margin-left: 10px;
+}
+
+
+/*** end product list section ***/
+
+
+/*******08 Start single product list section***hasanmia.com***/
+.product-title h2,
+.product-title h1,
+.product-title h3 {
+    color: #ffff
+}
+
+.breadcumb {
+    color: #fff;
+}
+
+.product-details {
+    padding-bottom: 25px;
+}
+
+.product-details .entry-thumb img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.product-details-single {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.product-details-single .entry-title {
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.product-details-single .rating {
+    color: #ffae00;
+    font-size: 18px;
+    margin-bottom: 11px;
+}
+
+.product-details-single .price {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.product-details-single .color-choosing {
+    margin: 24px 0 35px 0;
+}
+
+.product-details-single .color-choosing .entry-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 21px;
+}
+
+.product-details-single .color-choosing .black {
+    background: #2a2a2b;
+}
+
+.product-details-single .color-choosing .color-box {
+    height: 32px;
+    width: 32px;
+    border: 5px solid #f1f1f8;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.product-details-single .color-choosing .green {
+    background: #a5d647;
+}
+
+.product-details-single .color-choosing .color-box {
+    height: 32px;
+    width: 32px;
+    border: 5px solid #f1f1f8;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.product-details-single .color-choosing .white {
+    background: #fff;
+}
+
+.product-details-single .color-choosing .color-box {
+    height: 32px;
+    width: 32px;
+    border: 5px solid #f1f1f8;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.product-details-single .color-choosing .red {
+    background: #fa7476;
+}
+
+.product-details-single .color-choosing .color-box {
+    height: 32px;
+    width: 32px;
+    border: 5px solid #f1f1f8;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.product-details-single .input-field {
+    width: 60px;
+    padding: 12px;
+    border: 2px solid #f1f1f8;
+    margin-right: 10px;
+}
+
+.product-details-single .btn.btn-black {
+    padding: 11.99px 65px;
+    display: inline-table;
+}
+
+.btn-black {
+    color: #fff;
+    background: #242424;
+    width: 168px;
+    height: 41px;
+    text-align: center;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.product-buy {
+    display: inline-flex;
+}
+
+/***********09 About us ****hasanmia.com********/
+@media screen and (max-width: 40em) and (max-width: 63.9375em) {}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.about-banner {
+    background: url(../images/background/back2.jpg) no-repeat;
+    background-size: cover;
+    padding: 4%;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.about-title {}
+
+.about-title h2 {
+    text-transform: uppercase;
+    /*    border-bottom: 2px dotted #B74CF9;*/
+    text-align: center;
+    color: #ffffff;
+}
+
+.about-img {
+    padding-bottom: 25px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+
+.about-img img {
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px 1px #C050F9;
+    min-height: 350px;
+    max-width: 100%;
+
+}
+
+.about-img:hover {
+    opacity: .7;
+    transition: 1s;
+}
+
+.about-content {
+    position: relative;
+    margin-left: 10px;
+}
+
+.about-content h1,
+.about-content h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    box-shadow: 1px 2px 1px 2px #A944F8;
+    font-family: serif;
+    color: #A944F8;
+}
+
+.about-content h2:hover {
+    box-shadow: 1px 2px 1px 2px #8935F7;
+    opacity: .5;
+    transition: 1s;
+}
+
+.about-content p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.about-content p::first-letter {
+    font-size: 30px;
+    color: #8935F7;
+}
+
+.faq {
+    max-height: 50em;
+    border: 2px solid dashed;
+}
+
+.faq h4 {
+    font-weight: 700;
+    font-family: inherit;
+    padding-bottom: 10px;
+}
+
+.accordion-title {
+    border: 1px solid #dedcdc;
+    font-size: 19px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 1px 0px 1px 0px green;
+}
+
+.accordion-content {
+    box-shadow: 1px 0px 1px 0px green;
+
+}
+
+.fa-fa-angle-down {
+    font-size: 20px
+}
+
+.fa-angle-down:before {
+    content: "\f107";
+    margin-right: 5px;
+}
+
+.map {
+    margin-left: 10px;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/***********10 Contact us**hasanmia.com********/
+.contact-form {
+    padding-bottom: 25px;
+}
+
+.contact-title {
+    width: 95%;
+    text-align: center;
+    margin-left: 2%;
+    color: #A944F8;
+    margin-bottom: 50px;
+    /*
+    background: url(../images/background/back2.jpg) no-repeat;
+    background-size: cover;
+*/
+
+}
+
+.contact-title h1,
+.contact-title h2 {
+    text-transform: uppercase;
+    margin: 20px;
+    font-weight: 600;
+    box-shadow: 1px 2px 1px 2px #A944F8
+}
+
+.message-box {
+    width: 100%;
+    height: 150px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea#message {
+    font-size: 20px;
+}
+
+.btn-send {
+    min-width: 34%;
+    margin-left: 14px;
+    text-align: center;
+    height: 56px;
+    font-size: 21px;
+}
+
+.adress p {
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.adress ul li {
+    list-style: none;
+}
+
+/************08 Start Login ************/
+.forgot-pass {
+    padding: 15px;
+    font-size: 14px;
+}
+
+/************08 Start footer section ************/
+
+.footer-section {
+    background-color: #F1F1F8;
+    padding: 100px 0;
+}
+
+.footer-section .widget_news .widget-title .title {
+    position: relative;
+    margin-bottom: 35px;
+    font-size: 24px;
+}
+
+.footer-section .widget_news .widget-title .sub-title {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #606060;
+}
+
+.footer-section .widget_navigation .navigation-details .title {
+    position: relative;
+    margin-bottom: 35px;
+    font-size: 24px;
+}
+
+.footer-section .widget_navigation .navigation-details .title:before {
+    content: '';
+    height: 1px;
+    width: 35px;
+    bottom: -15px;
+    left: 0;
+    background-color: #8d02e5;
+    position: absolute;
+}
+
+.footer-section .widget_navigation .navigationt-details p {
+    font-size: 12px;
+    color: #c6c6ca;
+    margin-left: -8px;
+    margin-bottom: 15px;
+}
+
+.widget_navigation .services li {
+    margin-bottom: 20px;
+}
+
+.footer-section .widget_navigation .navigation-details a {
+    color: #8d02e5;
+}
+
+.footer-section .widget_navigation .navigation-details ul li {
+    margin-left: -9px;
+    font-size: 14px;
+    margin-bottom: 7px;
+    position: relative;
+    list-style: none;
+}
+
+.footer-section .widget_navigation .navigation-details li a {
+    color: #606060;
+    text-decoration: none;
+    margin-left: -30px;
+    margin-bottom: 15px;
+}
+
+.footer-section .widget-title .title:after {
+    content: '';
+    height: 1px;
+    width: 35px;
+    bottom: -15px;
+    left: 0;
+    background-color: #8d02e5;
+    position: absolute;
+}
+
+.footer-section .widget_news .footer-search input {
+    height: 41px;
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+    border: 0;
+    border-radius: 25px;
+    padding: 0 77px 0 20px;
+    font-size: 14px;
+}
+
+.footer-section .footer-search {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.footer-section .widget_news .footer-search .btn {
+    color: #fff;
+    position: absolute;
+    padding: 5.5px 25px;
+    top: 5px;
+    right: 5px;
+    border-radius: 20px;
+    background-image: -moz-linear-gradient(0deg, rgb(196, 82, 249) 0%, rgb(120, 44, 246) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(196, 82, 249) 0%, rgb(120, 44, 246) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(196, 82, 249) 0%, rgb(120, 44, 246) 100%);
+}
+
+.footer-section .widget_news {
+    text-align: left;
+}
+
+.footer-section .widget_news .social-area i {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-image: -moz-linear-gradient(0deg, rgb(196, 82, 249) 0%, rgb(120, 44, 246) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(196, 82, 249) 0%, rgb(120, 44, 246) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(196, 82, 249) 0%, rgb(120, 44, 246) 100%);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.footer-section .widget_about .fa-newspaper-o {
+    margin-left: 10px;
+}
+
+.footer-section .widget_about img {
+    margin-bottom: 27px;
+}
+
+.footer-section .widget_about .entry-content {
+    margin-bottom: 35px;
+    margin-right: 40px !important;
+    font-size: 14px;
+    color: #606060;
+}
+
+.footer-section .services .fa {
+    margin-right: 10px;
+}
+
+
+/**** start footer section ****/
+
+
+/*** start sub-footer section ***/
+
+.footer-bottom {
+    background-color: #110028;
+    padding: 26px 0;
+    color: #fff;
+    height: 80px;
+    width: 100%;
+}
+
+
+/*** end sub-footer section ***/
+
+
+/**/

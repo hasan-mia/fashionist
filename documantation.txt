@@ -1,0 +1,67 @@
+===================================
+Documantation of Bootstrap to Zurb
+===================================
+To converting this template I am using zurb-foundation v6.4.2 and using this link (https://foundation.zurb.com/sites/docs/)
+to take all foundation class elements.Because you mentioned that you need to all 8 foundation elements.
+
+I had Followed these few steps.
+==========
+HTML
+==========
+In html file I have changed all bootstrap class to zurb-foundation class just that step.
+I am using your all main html style insted of somethings.
+
+What I used new directly?
+1. Navbar, Form, and where i need class
+
+The main thing is grid style which i changed.
+01.Bootstrap class --to-- Foundation Class (for responsive grid)
+#Container  ----------- Grid-Container
+#row 		----------- Grid-x
+#col-md-*		----------- cell medium-*
+
+02. Used Responsive Navigation in topbar under the #navigation
+
+03. Used Forms using abide in login Under the #General
+
+05. Used Button in where need under the #Controls  
+
+06. Used Reveal in login form on forgot password.
+
+07. Used Tooltips on Add Cart Button on hover.
+
+08. Used orbit in index.html as a our best product.
+
+09. Used Accodion on about about page .
+
+10. Used Pannel/ Callout in contact page on adress bar and about page on about description.
+
+11. Copy all your main html elements div and style and paste into foundation grid cell.
+
+
+================
+CSS / style.css
+===============
+I am used your main style.css because of thinking your understanding advantage.
+
+Where are changed and edit?
+#In style.css I am using a comment where i changed to findout easily . just use your keyboard click (Ctrl+F) and type hasanmia.com 
+and I am also Maintain a sequence.
+
+01. Start header section // In css line number from 59.
+
+02. Start banner section // In css line number from 136.
+
+03. Start top sell section // In css line number from 185.
+
+04. Start account-section // In css line number from 204.
+
+05. Start banner section-2 // In css line number from 261.
+
+06. Start product list-section // In css line number from 272
+
+07. Start Single product list-section // In css line number from 372
+
+08. About us // In css line number from 497
+
+09. Contact us // In css line number from 567
